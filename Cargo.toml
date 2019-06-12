@@ -1,0 +1,10 @@
+[package]
+name = "terra_constgen"
+version = "0.1.0"
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bindgen = "0.49.2"
+syn = { version = "0.15.35", features = ["full", "printing"] }
+quote = "0.6.12"
